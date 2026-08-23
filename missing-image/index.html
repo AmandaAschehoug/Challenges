@@ -1,13 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>My Page</title>
-  <link rel="stylesheet" href="./assets/style.css" />
-</head>
-<body>
-  <h1>Hello, world</h1>
-  <img src="./assets/hero.png" alt="Hero" />
-  <a href="about.html">About</a>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore Norway</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav">
+        <a class="logo" href="index.html">Explore Norway</a>
+
+        <div class="nav-links">
+          <a href="about.html">About</a>
+        </div>
+      </nav>
+
+      <div class="hero-content">
+        <p class="eyebrow">Adventure awaits</p>
+        <h1>Discover the North</h1>
+        <p>
+          From dramatic mountains to quiet fjords, Norway is full of places
+          worth getting lost in.
+        </p>
+        <a class="button" href="#destinations">Explore destinations</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro">
+        <p class="eyebrow">A few favourites</p>
+        <h2>Places worth visiting</h2>
+        <p>
+          Norway's landscape changes quickly. One moment you're walking through
+          a city, the next you're surrounded by mountains and water.
+        </p>
+      </section>
+
+      <section id="destinations" class="cards">
+        <article class="card">
+          <img
+            src="assets/fjord.jpg"
+            alt="A Norwegian fjord surrounded by mountains"
+          />
+          <div class="card-content">
+            <p class="location">Western Norway</p>
+            <h3>The Fjords</h3>
+            <p>
+              Deep blue water, steep mountains and some of the most dramatic
+              scenery in the country.
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img
+            src="assets/mountains.jpg"
+            alt="Snow-covered Norwegian mountains"
+          />
+          <div class="card-content">
+            <p class="location">Northern Norway</p>
+            <h3>The Mountains</h3>
+            <p>
+              Endless hiking opportunities, changing weather and views that make
+              the climb worthwhile.
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img
+            src="assets/aurora.jpg"
+            alt="Northern lights over a Norwegian landscape"
+          />
+          <div class="card-content">
+            <p class="location">The Arctic</p>
+            <h3>Northern Lights</h3>
+            <p>
+              On a clear winter night, the sky can put on a show of its own.
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>Made for exploring.</p>
+    </footer>
+  </body>
 </html>
