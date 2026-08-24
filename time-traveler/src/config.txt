@@ -1,0 +1,2 @@
+database=inventory
+format=plain-text
