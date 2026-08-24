@@ -1,0 +1,4 @@
+Inventory data
+Apples
+Oranges
+Bananas
