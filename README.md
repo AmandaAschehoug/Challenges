@@ -1,5 +1,5 @@
 # Challenges
 
-Challenges meant to teach entry level terminal and git knowledge.
+A set of hands-on challenges for learning the terminal and Git basics, built for AbaCord/intro-course.
 
-Use what you learned about cd to get to the relevant task
+Fork the repo, work through the challenges, and submit your flags as you go.
