@@ -1,0 +1,7 @@
+Previous diagnostic run completed successfully.
+
+Services checked:
+- application
+- inventory
+- scheduler
+- worker
